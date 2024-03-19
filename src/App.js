@@ -50,7 +50,7 @@ function App() {
             >JSX</TabButton>
             <TabButton 
               isSelected={selectedTopic === 'props'}  
-              onSelect={() => handleSelect('')}
+              onSelect={() => handleSelect('props')}
             >Props</TabButton>
             <TabButton 
               isSelected={selectedTopic === 'state'}  
